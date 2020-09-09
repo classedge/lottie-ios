@@ -31,6 +31,7 @@ public final class DictionaryTextProvider: AnimationTextProvider {
 /// Default text provider. Uses text in the animation file
 public final class DefaultTextProvider: AnimationTextProvider {
     public func textFor(keypathName: String, sourceText: String) -> String {
+        debugPrint("Changes")
         return sourceText
     }
     
